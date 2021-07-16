@@ -1,0 +1,30 @@
+body {
+    background-color: green;
+}
+
+.box {
+    background-color: rgba(190, 185, 185, 0.808);
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 250px;
+    box-shadow:0 5rem 10rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 60vw;
+}
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    margin-top: 30%;
+    padding-top: 20%;
+    font-size: 24px;
+}
+.button {
+    position: relative;
+    top: 30%;
+}
+#quoteDisplay {
+    margin: 20px;
+    font-size: 20px;
+}
