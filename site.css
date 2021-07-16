@@ -3,14 +3,17 @@ body {
 }
 
 .box {
+    margin: auto;
+    padding: 10px;
     background-color: rgba(190, 185, 185, 0.808);
-    margin-top: 30%;
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 250px;
     box-shadow:0 5rem 10rem rgba(0, 0, 0, 0.5);
     text-align: center;
-    width: 60vw;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 25%;
+    height: 250px;
 }
 h2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -23,6 +26,7 @@ p {
 .button {
     position: relative;
     top: 30%;
+    text-transform: uppercase;
 }
 #quoteDisplay {
     margin: 20px;
