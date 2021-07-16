@@ -1,11 +1,12 @@
 body {
-    background-color: green;
+    background-color: #2ed573;
 }
 
 .box {
     margin: auto;
     padding: 10px;
-    background-color: rgba(190, 185, 185, 0.808);
+    background-color: white;
+    color:#2ed573;
     box-shadow:0 5rem 10rem rgba(0, 0, 0, 0.5);
     text-align: center;
     width: 60%;
@@ -15,20 +16,29 @@ body {
     left: 25%;
     height: 250px;
 }
-h2 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 p {
     margin-top: 30%;
     padding-top: 20%;
     font-size: 24px;
 }
 .button {
-    position: relative;
-    top: 30%;
+    position: fixed;
+    top: 90%;
+    left: 80%;
     text-transform: uppercase;
+    background-color: #2ed573;
+    border:#2ed573;
+    color: white;
 }
 #quoteDisplay {
     margin: 20px;
     font-size: 20px;
+}
+.bottomRow {
+    color:#2ed573;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
 }
