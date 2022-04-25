@@ -29,6 +29,8 @@ p {
     background-color: #2ed573;
     border:#2ed573;
     color: white;
+    width: 17% !important;
+    border-radius: 5px;
 }
 #quoteDisplay {
     margin: 20px;
